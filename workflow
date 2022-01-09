@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-09T04:38:05.598Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" etag="oyJeIFEXWHfDWIQ8thaK" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-09T04:40:19.476Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" etag="1ZLtgN4535VKG7WxL5YX" version="16.2.4" type="github">
   <diagram id="oRN-LMhcqF_VPcyP5o2H" name="Page-1">
     <mxGraphModel dx="940" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -63,6 +63,18 @@
         </mxCell>
         <mxCell id="Be_dPrEwkYvoJM2gL3Wc-26" value="배포" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="40" y="1060" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Be_dPrEwkYvoJM2gL3Wc-27" value="&lt;font style=&quot;font-size: 18px&quot;&gt;사이트맵 작성 &amp;gt; 화면 설계 &amp;gt; 화면별 프로세스 설계 &amp;gt; DB 설계&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="730" width="590" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Be_dPrEwkYvoJM2gL3Wc-28" value="&lt;font style=&quot;font-size: 18px&quot;&gt;화면 디자인 &amp;gt; HTML / CSS / JavaScript&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="840" width="590" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Be_dPrEwkYvoJM2gL3Wc-29" value="&lt;font style=&quot;font-size: 18px&quot;&gt;-&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="960" width="590" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Be_dPrEwkYvoJM2gL3Wc-30" value="&lt;font style=&quot;font-size: 18px&quot;&gt;-&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1060" width="590" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
