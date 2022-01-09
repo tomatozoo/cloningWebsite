@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-09T04:34:34.775Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" etag="hcTHeepEq-FyP3I5UqVk" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-09T04:38:05.598Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" etag="oyJeIFEXWHfDWIQ8thaK" version="16.2.4" type="github">
   <diagram id="oRN-LMhcqF_VPcyP5o2H" name="Page-1">
-    <mxGraphModel dx="2003" dy="978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="940" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,6 +48,21 @@
             <mxPoint x="80" y="368" as="sourcePoint" />
             <mxPoint x="450" y="240" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Be_dPrEwkYvoJM2gL3Wc-22" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;웹 개발 단계 (time)&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="15" y="650" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Be_dPrEwkYvoJM2gL3Wc-23" value="기획" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="730" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Be_dPrEwkYvoJM2gL3Wc-24" value="디자인" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="840" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Be_dPrEwkYvoJM2gL3Wc-25" value="기능구현" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="960" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Be_dPrEwkYvoJM2gL3Wc-26" value="배포" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1060" width="130" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
