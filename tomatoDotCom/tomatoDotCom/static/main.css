@@ -5,112 +5,84 @@
 
 /* 폰트 이름은 'Nanum Gothic' 입니다. 공백이 있으므로 주의해 주세요. */
 /* font-family : 'Nanum Gothic'; 으로 지정해 줍니다. */
-.text_box {
-	font-family : 'Nanum Gothic';
-}
+
 /* Set a style for all buttons */
 * {
     font-family : 'Nanum Gothic';
 }
-button {
-    background-color: #FFFFFF;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-}
-/* Add a hover effect for buttons */
 
-button:hover{
-    opacity: 0.8;
+/*Login*/
+#login_text {
+    border : 0px solid white;
+    display : inline;
 }
-
-body {
-    width: 500px;
-    margin: 0 auto;
-  }
-  
-a {
-    color: rgb(217,73,37);
+/*아직 계정이 없으신가요?*/
+.join {
+    font-size:20px;
+    border : 0px solid white;
+    display: inline;
+}
+/*회원가입 하기*/
+#join_button {
+    border : 0px solid white;
+    display : inline;
+}
+/*위 요소 합*/
+.first_line {
+    display: grid;
+    grid-template-columns : 5fr 1fr;
+}
+/*아이디 비밀번호 박스*/
+.text_box {
+    border:1px solid rgb(228,228,228);
+    height:30px;
+    border-radius: 5px;
+    display: block;
+    width:100%;
+    margin: 5px 0;
+    outline: none;
+    text-align: center;
+    background-color : rgb(255,255,255);
+    color : rgb(228,228,228);
+}
+.text_box:focus{
+    animation-name : border-focus;
+    animation-duration:1s;
+    animation-fill-mode:forwards;
+}
+@keyframes border-focus{
+    from{
+        border-radius:0;
+    }
+    to {
+        border-radius:15px;
+    }
+}
+/*login button*/
+.loginButton {
+    height:30px;
+    width:100%;
+    color: rgb(255,255,255);
+    background-color: rgb(217,73,37);
     border: 2px solid rgb(255,255,255);
     padding: relative;
     margin: relative;
     border-radius: 5px;
-    text-align : right;
+    text-align : center;    
+    vertical-align:middle;
 }
-.join {
-    background-color: rgb(255,255,255);
-}
-.login_input {
-    background-color: rgb(255,255,255);
-    color: rgb(228,228,228);
-}
-.loginButton {
-    background-color: rgb(217,73,37);
-    color: rgb(255,255,255);
-}
+/*forgot password*/
 .forget {
-    background-color: rgb(255,255,255);
-    color: 
+    text-align:right;
 }
-.loginwithGoogle {
-    background-color: rgb(255,255,255);
+.loginwith {
+    height:30px;
+    border-radius: 5px;
+    display: block;
+    width:100%;
+    margin: 10px;
+    outline: none;
+    text-align: center;
+    background-color : rgb(228,228,228);
+    color : rgb(0,0,0);    
 }
-.loginwithNaver {
-    background-color: rgb(255,255,255);
-}
-.loginwithKakao {
-    background-color: rgb(255,255,255);
-}
-/*
-:root {
-    --green: #00FF00;
-    --white: #ffffff;
-    --black: #000000;
-}
-* {
-    color : var(--fontColor);
-    font-family: helvetica;
-}
-body {
-    background: var(--bg);
-}
-ul {
-     ul html 요소를 선택
-    font-family: helvetica;
-}
-li {
-    list-style: circle;
-}
-.list {
-    list-style: square;
-}
-#msg {
-    font-family: monospace;
-}
-.light-theme {
-    --bg: var(--green);
-    --fontcolor: var(--black);
-    --btnBg: var(--black);
-    --btnFontColor: var(--white);
-}
-.dark-theme {
-    --bg: var(--black);
-    --fontcolor: var(--white);
-    --btnBg: var(--white);
-    --btnFontColor : var(--black);
-}
-.btn {
-    position: absolute;
-    top:20px;
-    left:250px;
-    height:50px;
-    border-radius:50%;
-    border: none;
-    color : var(--btnFontColor);
-    background-color: var(--btnBg);
-}
-.btn:focus {outline-style:none;}
-*/
