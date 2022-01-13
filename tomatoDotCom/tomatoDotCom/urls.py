@@ -15,10 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 
-import views
+import tomatoDotCom.views
 from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index, name='index'),
+    path('', tomatoDotCom.views.index, name='index'),
 ]
