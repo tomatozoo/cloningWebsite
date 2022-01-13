@@ -1,0 +1,95 @@
+<!DOCTYPE html> <!-- html5 version -->
+<html lang="en"> <!-- html lang -->
+    <head> <!-- root element of html page -->
+        <!-- 뷰어에 표시되지 않는 메타 데이터 정보 ---->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login_page</title> <!-- title for html page -->
+            <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="main.css">
+        <link href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css" rel="stylesheet">
+        <style>
+            a {text-decoration : none;}
+            .nanumgothic{font-family:'Nanum Gothic', sans-serif;}
+            .button0 {
+                top:11%;
+                left:55%;
+                width:100px;
+                height: 40px;
+                position: absolute;
+                z-index:2;
+                background:orange;
+
+            }
+            .button1 {
+                top:15%;
+                left:55%;
+                width:100px;
+                height: 40px;
+                position: absolute;
+                z-index:2;
+                background:orange;
+
+            }
+            .button2 {
+                top:19%;
+                left:55%;
+                width:100px;
+                height: 40px;
+                position: absolute;
+                z-index:2;
+                background:orange;
+
+            }
+        </style>
+    </head>
+    <body class="login_page">
+        <header>
+            <div class="logo_button">
+                <img src="토마토용.png" alt="tomatolife.com" width="100" height="70">
+            </div>
+        </header>
+        <main>
+            <div class="login_container">
+                <div class="login_section">
+                    <div class="login_information">
+                        <h2>Login</h2>
+                        <p class="join">
+                            "아직 계정이 없으신가요?"
+                            <a href="https://blog.naver.com/enkeejuniour">회원가입 하기</a>
+                        <div class="login_input">
+                            <form action class="form">
+                                <div class="form_div">
+                                    <input class="text_box" id="userLogin" name="userLogin" placeholer=" " type="id_container" value>
+                                    <label for="userLogin" class="form_label">아이디</label>
+                                </div> 
+                                <div class="form_div">
+                                    <input class="text_box" id="password" name="userPw" placeholer=" " type="pw_container" value>
+                                    <label for="userPw" class="form_label">비밀번호</label>
+                                </div> 
+                            </form>
+                        </div>
+                    </div>
+                    <div class="loginButton">
+                        <span>로그인</span>
+                    </div>
+                    <p class="forget">
+                        "비밀번호를 잊으셨나요?"
+                        <a href="https://blog.naver.com/enkeejuniour">비밀번호 찾기</a>
+                    </p>
+                    <div class="loginwithGoogle">
+                        <input type="button" title="loginGoogle" class=".button0" value="구글 계정으로 로그인">
+                    </div>
+                    <div class="loginwithNaver">
+                        <input type="button" title="loginNaver" class=".button0" value="네이버 계정으로 로그인">
+                    </div>
+                    <div class="loginwithKakao">
+                        <input type="button" title="loginKakao" class=".button0" value="카카오 계정으로 로그인">
+                    </div>                    
+                </div>
+            </div>
+        </main>
+        <footer></footer>           
+    </body>
+</html>
