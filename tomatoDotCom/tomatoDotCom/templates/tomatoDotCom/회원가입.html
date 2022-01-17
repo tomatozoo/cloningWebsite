@@ -1,0 +1,85 @@
+<!DOCTYPE html> <!-- html5 version -->
+<html lang="en"> <!-- html lang -->
+    <head> <!-- root element of html page -->
+        <!-- 뷰어에 표시되지 않는 메타 데이터 정보 ---->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login_page</title> <!-- title for html page -->
+        <link rel="stylesheet" href="/static/main.css">
+    </head>
+    <body class="login_page">
+        <header>
+            <div class="logo_button">
+                <img src="/static/토마토용.png" alt="tomatolife.com" width="100" height="90">
+            </div>
+        </header>
+        <main>
+            <div class="Join_container">
+                <div class="Join_section">
+                    <div class="Join_information">
+                        <div class="Join_line">
+                            <h2 id="Join_text">Join</h2>
+                        </div>
+                        <div class="login_input">
+                            <form action class="form">
+                                <div class="form_div">
+                                    <input class="text_box" id="name" name="userName" placeholer="이름" type="name_container" value="이름">
+                                    <label for="userName" class="form_label"></label>
+                                </div> 
+                                <div class="form_div">
+                                    <input class="text_box" id="userLogin" name="userLogin" placeholer="아이디" type="id_container" value="아이디">
+                                    <label for="userLogin" class="form_label"></label>
+                                </div> 
+                                <div class="form_div">
+                                    <input class="text_box" id="emailAddress" name="emailAddress" placeholer="이메일주소" type="email_container" value="이메일주소">
+                                    <label for="emailAddress" class="form_label"></label>
+                                </div> 
+                                <div class="form_div">
+                                    <input class="text_box" id="password" name="userPw" placeholer="비밀번호" type="pw_container" value="비밀번호">
+                                    <label for="userPw" class="form_label"></label>
+                                </div> 
+                                <div class="form_div">
+                                    <input class="text_box" id="password_check" name="password_check" placeholer="비밀번호 확인" type="pw_container_check" value="비밀번호 확인">
+                                    <label for="password_check" class="form_label"></label>
+                                </div> 
+                            </form>
+                        </div>
+                    </div>
+                    <div>
+                        <form>
+                            <select name="신분">
+                                <option value="신분" selected>신분</option>
+                                <option value="초등학생">초등학생</option>
+                                <option value="중학생">중학생</option>
+                                <option value="고등학생">고등학생</option>
+                                <option value="대학생">대학생</option>
+                                <option value="대학원생">대학원생</option>
+                                <option value="학부모">학부모</option>
+                                <option value="교사">교사</option>
+                                <option value="일반인(기타)">일반인(기타)</option>
+                            </select>
+                        </form>
+                        <form>
+                            <select name="알게 된 경로">
+                                <option value="알게 된 경로" selected>알게 된 경로</option>
+                                <option value="지인 소개">지인 소개</option>
+                                <option value="홍보/광고">홍보/광고</option>
+                                <option value="인터넷 검색">인터넷 검색</option>
+                            </select>
+                        </form>
+                        <label><input type="checkbox" name="agree" value="agreeon_every_aspect"> 전체 약관에 동의합니다.</label>
+                    </div>
+                    <div>
+                        <label><input type="checkbox" name="service_agree" value="agreeon_every_aspect"> 서비스 이용약관(필수)</label>
+                        <label><input type="checkbox" name="privacy_agree" value="agreeon_every_aspect"> 개인정보 수집 및 이용에 동의(필수)</label>
+                    </div>
+                    <div>
+                        <input type="button" title="join" class="joinButton" value="회원가입">
+                    </div>        
+                </div>
+            </div>
+        </main>
+        <footer></footer>           
+    </body>
+</html>
